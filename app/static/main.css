@@ -1,0 +1,46 @@
+body {
+    margin: 20px
+}
+
+.main-card{
+    text-align: center;
+    padding: 20px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.card{
+    display: inline;
+    border: none;
+}
+
+.index-img{
+    height: 300px;
+    width: 450px;
+}
+
+img.card-img {
+    height:350px;
+    width:250px;
+    margin: 10px;
+}
+
+.card-title {
+    color: white;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: forestgreen;
+}

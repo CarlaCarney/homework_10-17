@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="title_area">
+  <h1 class="main-title">Carla's Top 5 Brazilian Foods</h1>
+</div>
+
+{% for a in category %}
+<div class="main-card">
+  <img src={{a.picture}} class="index-img">
+  <figcaption class="figure-caption"><a href="/foods">{{a.category}}</a></figcaption>
+</div>
+{% endfor %}
+
+{% endblock %}
